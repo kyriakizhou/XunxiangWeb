@@ -63,7 +63,7 @@
       <div class="container">
 
         <!-- Brand -->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="../index.html">
           <strong>寻向</strong>
         </a>
 
@@ -78,7 +78,7 @@
           <!-- Left -->
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">关于寻向
+              <a class="nav-link" href="../index.html">关于寻向
                 <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -86,7 +86,7 @@
               <a class="nav-link" href="./HTML/teamintro.html">团队介绍</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#qrcode">联系我们</a>
+              <a class="nav-link" href="#bottom">联系我们</a>
             </li>
           </ul>
 
@@ -95,9 +95,9 @@
               板块分布
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">在校生</a>
-              <a class="dropdown-item" href="#">职场人</a>
-              <a class="dropdown-item" href="#">家长</a>
+              <a class="dropdown-item" href="#student">在校生</a>
+              <a class="dropdown-item" href="#work">职场人</a>
+              <a class="dropdown-item" href="#parents">家长</a>
             </div>
           </div>
 
@@ -271,21 +271,32 @@
         <div class="col-lg-4">
           <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
           <h2>在校生</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <ul>
+            <li>寻向笔记</li>
+            <li>寻向职场细分社群</li>
+            <li>寻向练习生</li>
+          </ul>
+          <p><a class="btn btn-secondary" href="#student" role="button">更多...</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
           <h2>职场人</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <ul>
+            <li>寻向职场人</li>
+            <li>寻向笔记</li>
+            <li>寻向领队</li>
+          </ul>
+          <p><a class="btn btn-secondary" href="#work" role="button">更多...</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
           <h2>家长</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-            risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <ul>
+            <li>寻向笔记</li>
+            <li>寻向家长社群</li>
+            <br>
+          </ul>
+          <p><a class="btn btn-secondary" href="#parents" role="button">更多...</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -293,11 +304,18 @@
       <!-- 在校生 -->
       <hr class="featurette-divider">
       <hr class="featurette-divider">
+      <!-- fake anchor -->
+      <a id="student" style=" position: relative;top: -80px;display: block;height: 0;overflow: hidden;"></a>
       <h2 class="h1 text-center mb-3">在校生</h2>
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">寻向笔记 <span class="text-muted">一个记录与讲述留学生梦想与选择的笔记本 </span></h2>
+          <p>写满不同人生可能性的公众号平台。 “人物专访”栏 目每期都会采访在不同的方向与领域奋斗的留学生年轻人，为后来人展示不同的可能性。 “职场面对面” 栏目每次会介绍一种不同的职业或者公司。
+            自2018年8月开始，寻向笔记一共采访了30+ 位年轻留学生职场人，分享了20+ 种职业介绍。
+            职业介绍既覆盖了咨询、科技等常见行业，也积极探索航运业、创业等小众行业。
+            寻向笔记共发布60+ 原创文章，来自“人物专访” “职场面对面” “Office Hour” “干货”等栏目。
+            通过每一次对于留学前辈的采访，寻向笔记团队帮助留学生解锁一个又一个未来可能的发展方向，将来自前人最真诚实在的经验建议分享给后来人。
+          </p>
         </div>
         <div class="col-md-5">
           <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
@@ -310,8 +328,10 @@
       <hr class="featurette-divider">
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">寻向社群 <span class="text-muted">行业职场细分</span></h2>
+          <p>聚集着有相同求职兴趣在校生的行业细分社群。预计覆盖热门（科技，金融等）与小众职业（医，法，教育等）。细分社群将被打造为信息输出和传递平台。每个社群会邀请5+在此领域从业的年轻职场人定期分享各种行业咨讯，求职要点，答疑解惑等等。每个细分社群将为群成员提供配对同辈修改简历，模拟面试等各种公益服务。
+          </p>
+          <p>请关注<a href="#bottom">寻向公众号</a>，查收最新关于寻向职场细分社群的加入方式。</p>
         </div>
         <div class="col-md-5 order-md-1">
           <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
@@ -324,8 +344,15 @@
       <hr class="featurette-divider">
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">寻向练习生 <span class="text-muted">帮助留学生成长与进阶的菁英社群</span></h2>
+          <p>针对在校生的，高质量，关系紧密的互助社群。多元背景的练习生们经过层层选拔加入项目，在职场前辈最大可能的帮助下，了解不同的方向，找到自己的热爱，实现个人发展的目标。在从“练习生”成长为“职场人”，之后再去帮助之后的“寻向练习生”</p>
+          <p class="lead">寻向练习生专属：</p>
+          <ul>
+            <li>《学长学姐面对面》第一手入场券</li>
+            <li>寻向领队1-on-1 Office Hours</li>
+            <li>更多实时咨询分享</li>
+            <li>与其他优秀练习生和优秀领队建立联系和友谊</li>
+          </ul>
         </div>
         <div class="col-md-5">
           <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
@@ -339,11 +366,27 @@
 
       <!-- 职场人 -->
       <hr class="featurette-divider">
+      <!-- fake anchor -->
+      <a id="work" style=" position: relative;top: -80px;display: block;height: 0;overflow: hidden;"></a>
       <h2 class="h1 text-center mb-3">职场人</h2>
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">寻向职场人 <span class="text-muted">属于优秀留学职场人的社群</span></h2>
+          <p>社群致力于拥有各种背景，各种行业，各种兴趣的年轻职场人提供人脉和知识。大家彼此之间相互分享，互相赋能。</p>
+          <p class="lead">社群互动和活动</p>
+          <ul>
+            <li>职场人手册</li>
+            <li>资源知识整理</li>
+            <li>主题分享：</li>
+            <ul>
+              <li>话术分类：</li>
+              <ul>
+                <li>从业领域介绍：云计算对不同行业产生的影响，谷歌APM项目，国内外创业环境等</li>
+                <li>职场人生活：北美买房经验，旅游推荐，投资理财等</li>
+              </ul>
+            </ul>
+          </ul>
+          <p>请关注<a href="#bottom">寻向公众号</a>，查收最新关于寻向职场细分社群的加入方式。</p>
         </div>
         <div class="col-md-5">
           <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
@@ -356,7 +399,7 @@
       <hr class="featurette-divider">
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+          <h2 class="featurette-heading">寻向笔记 <span class="text-muted">See for yourself.</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5 order-md-1">
@@ -370,7 +413,7 @@
       <hr class="featurette-divider">
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <h2 class="featurette-heading">寻向领队 <span class="text-muted">Checkmate.</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
@@ -385,10 +428,12 @@
 
       <!-- 家长 -->
       <hr class="featurette-divider">
+      <!-- fake anchor -->
+      <a id="parents" style=" position: relative;top: -80px;display: block;height: 0;overflow: hidden;"></a>
       <h2 class="h1 text-center mb-3">家长</h2>
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+          <h2 class="featurette-heading">寻向笔记 <span class="text-muted">It’ll blow your mind.</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
@@ -402,7 +447,7 @@
       <hr class="featurette-divider">
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+          <h2 class="featurette-heading">寻向家长社群 <span class="text-muted">See for yourself.</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5 order-md-1">
