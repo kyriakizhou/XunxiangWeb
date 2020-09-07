@@ -14,12 +14,25 @@
   <link href="../css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="../css/style.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
   <style type="text/css">
     html,
     body,
     header,
     .carousel {
       height: 60vh;
+    }
+    p {
+      font-family: 'ZCOOL XiaoWei', serif;
+    }
+
+    h1,h2,h3,h4,h5,h6,li {
+      font-family: 'ZCOOL XiaoWei', serif;
+    }
+
+    a, .brand {
+      font-family: 'ZCOOL XiaoWei', serif;
+      font-size: 1.35rem;
     }
 
     html {
@@ -63,7 +76,7 @@
       <div class="container">
 
         <!-- Brand -->
-        <a class="navbar-brand" href="../index.html">
+        <a class="brand navbar-brand" href="../index.html">
           <strong>寻向</strong>
         </a>
 
@@ -83,7 +96,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./HTML/teamintro.html">团队介绍</a>
+              <a class="nav-link" href="./teamintro.html">团队介绍</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#bottom">联系我们</a>
@@ -91,7 +104,7 @@
           </ul>
 
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-secondary dropdown-toggle brand" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               板块分布
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -121,7 +134,7 @@
           </ul> -->
 
           <!-- Button trigger modal -->
-          <a class="btn btn-success" href="#bottom" role="button"><i class="fab fa-weixin mr-2"></i>微信公众号</a>
+          <a class="btn btn-success brand" href="#bottom" role="button"><i class="fab fa-weixin mr-2"></i>微信公众号</a>
 
 
         </div>
